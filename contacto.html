@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="favicon icon" href="images/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <div id="fontsGoogle">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap"
+            rel="stylesheet" />
+    </div>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body class="container-ganaderiaReg">
+  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary nav-style">
+    <div class="container-fluid">
+        <a class="navbar-brand active animate__animated animate__bounce" aria-current="page" href="index.html">
+            <img src="images/Logo.png" alt="CAMPO VIVO" width="250">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="ganaderia regenerativa.html">GANADERIA REGENERATIVA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+        </div>
+    </div>
+</nav>
+  <section id="textarea">
+    <h2 class="mainTitles">Mandanos un mensaje</h2>
+    <p>
+      Aquí nos puedes dejar unas líneas contando sobre tu proyecto, y cómo
+      podemos ayudar. También puedes expresarnos las dudas que quieras!
+      Contestaremos a la brevedad.
+    </p>
+  </section>
+  <section id="form">
+    <form action="">
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre *" />
+      <br />
+      <input type="email" name="email" id="email" placeholder="Email *" />
+      <br />
+      <input type="text" name="celular/telefono" id="celular/telefono" placeholder="Celular/Telefono" />
+      <br />
+      <select name="tipo" id="tipo">
+        <option value="celular">Celular</option>
+        <option value="fijo">Fijo</option>
+      </select><br />
+      <textarea name="comentario" id="comentario" placeholder="Consulta" cols="30" rows="10"></textarea>
+      <br />
+      <div>¿Desea recibir informacion sobre nuestras capacitaciones?</div>
+      <label for="si">si</label>
+      <!--entiendo que en este caso seria mejor boton de radio, pero pide poner un checkbox la consigna-->
+      <input type="checkbox" name="si" id="SiAcepto" />
+      <label for="no">no</label>
+      <input type="checkbox" name="no" id="NoAcepto" />
+      <br />
+      <input type="reset" name="reset" id="Limpiar formulario" />
+      <input type="submit" name="enviar" id="enviar" /><br />
+    </form>
+  </section>
+  <footer style="background-color: #666666;">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+        <ul class="list-unstyled col-12 col-md-3 d-flex mb-3">
+            <li class="mx-2 footerText"><a href="mailto:campovivo@ovis21.com">campovivo@ovis21.com</a></li>
+            <li class="mx-2"><a target="_blank" href="https://www.instagram.com/nodocampovivo/?hl=es-la"><img
+                        src="images/ainstagram.png" alt="ir instagram" width="25" /></a></li>
+            <li class="mx-2"> <a target="_blank" href="https://www.facebook.com/OvisXXI/"><img
+                        src="images/afacebook.png" alt="ir facebook" width="25" /></a></li>
+            <li class="mx-2"> <a href="contacto.html">CONTACTANOS</a></li>
+        </ul>
+        <img class="col-12 col-md-3 mb-3" src="images/logo-blanco.png" alt="Nodo Campo Vivo" width="200">
+    </div>
+</footer>
+  
+</body>
+</html>

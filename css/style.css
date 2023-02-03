@@ -1,0 +1,107 @@
+/*VARIABLES EN LA TIPOGRAFIA*/
+.tipografiaBlack {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #666666;
+}
+
+.tipografiatRegular {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.tipografiaSemiBold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+body {
+  background-color: #f8f3e9;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.bg-img {
+  height: 100vh;
+  background-image: url(/images/fondo2.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+/* ALINEACIONES DE TEXTO*/
+.center {
+  text-align: center;
+}
+
+.toTheLeft {
+  text-align: left;
+}
+
+.toTheRight {
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.titleOverImg {
+  color: #f8f3e9 !important;
+  text-shadow: 1px 1px 2px #333 !important;
+}
+
+.bg-body-tertiary {
+  background-color: #f8f3e9 !important;
+}
+
+p {
+  color: #666666;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.mainTitles {
+  color: #a4be38;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.button {
+  background-color: #f8f3e9;
+  color: #a4be38;
+  border-color: #d8d8d8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 30px;
+}
+.button:hover {
+  cursor: pointer;
+  color: #f8f3e9;
+  background-color: #666666;
+}
+
+footer {
+  bottom: 0px;
+  background-color: #666666;
+}
+footer a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.nav-style {
+  font: montserrat, sans-serif;
+  color: #a4be38;
+}
+
+.nav-link {
+  font: montserrat, sans-serif;
+  color: #a4be38;
+}
+
+/*# sourceMappingURL=style.css.map */
