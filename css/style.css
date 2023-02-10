@@ -33,7 +33,7 @@ h5 {
 }
 
 body {
-  background-color: #f8f3e9;
+  background-color: #fff;
 }
 
 body,
@@ -140,7 +140,7 @@ nav {
   font-family: "Montserrat", sans-serif;
   color: #666666;
   text-align: center;
-  background-color: #f8f3e9;
+  background-color: #fff;
 }
 .card:hover {
   transform: scale(1.05);
