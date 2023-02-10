@@ -1,18 +1,35 @@
-/*VARIABLES EN LA TIPOGRAFIA*/
-.tipografiaBlack {
+h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   color: #666666;
 }
 
-.tipografiatRegular {
+h2 {
+  text-align: center;
+  color: #a4be38;
+  font-weight: bold;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  padding: 1em;
 }
 
-.tipografiaSemiBold {
+p {
+  color: #666666;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
+
+h3 {
+  color: #666666;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  text-align: center;
+  padding: 1em;
+}
+
+h5 {
+  color: #666666;
+  text-align: center;
 }
 
 body {
@@ -58,17 +75,8 @@ html {
   background-color: #f8f3e9 !important;
 }
 
-p {
-  color: #666666;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-}
-
-.mainTitles {
-  color: #a4be38;
-  font-size: 25px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+#mision-y-filosofia p {
+  text-align: center !important;
 }
 
 .button {
@@ -105,6 +113,10 @@ footer a {
   color: #a4be38;
 }
 
+nav {
+  padding: 12;
+}
+
 #galeria {
   display: flex;
   width: 600px;
@@ -122,6 +134,22 @@ footer a {
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
+}
+
+.card {
+  font-family: "Montserrat", sans-serif;
+  color: #666666;
+  text-align: center;
+  background-color: #f8f3e9;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card h5 {
+  font-weight: 600;
+}
+.card p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

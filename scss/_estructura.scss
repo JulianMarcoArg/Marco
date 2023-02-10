@@ -1,27 +1,45 @@
 $main-color-1: #666666;
 $main-color-2: #f8f3e9;
 $main-color-3: #a4be38 ;
+$secondary-color1: #966c3c;
 $main-typography: "Montserrat", sans-serif;
+$background-color: #f8f3e9;
 
+h1 {
+  font-family: $main-typography;
+  font-weight: 900;
+  color: $main-color-1;
 
-  /*VARIABLES EN LA TIPOGRAFIA*/
-  .tipografiaBlack {
-    font-family: $main-typography;
-    font-weight: 900;
-    color: $main-color-1;
-  }
+}
+h2 {
+ text-align: center;  
+ color: $main-color-3;
+ font-weight: bold;
+ font-family: $main-typography;
+ padding: 1em;
+}
+p {
+  color: $main-color-1;
+  font-family: $main-typography;
+  font-weight: 400;
+  text-align: justify;
+}
+h3 {
+  color: $main-color-1;
   
-  .tipografiatRegular {
-    font-family: $main-typography;
-    font-weight: 400;
-  }
+  font-family: $main-typography;
+  font-weight: 600;
+  text-align: center;
+  padding: 1em;
+}
+h5 {
+  color: $main-color-1;
+  text-align: center;
+}
+
   
-  .tipografiaSemiBold {
-    font-family: $main-typography;
-    font-weight: 600;
-  }
   body {
-    background-color: $main-color-2;
+    background-color: $background-color;
   }
   body,
   html {
@@ -64,18 +82,11 @@ $main-typography: "Montserrat", sans-serif;
   .bg-body-tertiary {
     background-color: $main-color-2 !important;
   }
-  
+
+#mision-y-filosofia {
   p {
-    color: $main-color-1;
-    font-family: $main-typography;
-    font-weight: 400;
-  }
-  .mainTitles {
-    color: $main-color-3;
-    font-size: 25px;
-    font-family: $main-typography;
-    font-weight: 600;
-  }
-  
-  
-  
+ text-align: center !important;
+}
+
+
+}

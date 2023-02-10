@@ -28,7 +28,7 @@
 
 </head>
 
-<body class="container-fluid">
+<body>
   <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary nav-style">
     <div class="container-fluid">
         <a class="navbar-brand active" href="index.html">
@@ -58,40 +58,49 @@
                 </li>
         </div>
     </div>
-</nav>
+  </nav>
   <section class="container">
-    <h2 class="mainTitles">Mandanos un mensaje</h2>
+    <h2>Mandanos un mensaje</h2>
     <p>
       Aquí nos puedes dejar unas líneas contando sobre tu proyecto, y cómo
       podemos ayudar. También puedes expresarnos las dudas que quieras!
       Contestaremos a la brevedad.
     </p>
   </section>
-  <section id="form">
-    <form action="">
-      <input type="text" id="nombre" name="nombre" placeholder="Nombre *" />
-      <br />
-      <input type="email" name="email" id="email" placeholder="Email *" />
-      <br />
-      <input type="text" name="celular/telefono" id="celular/telefono" placeholder="Celular/Telefono" />
-      <br />
-      <select name="tipo" id="tipo">
-        <option value="celular">Celular</option>
-        <option value="fijo">Fijo</option>
-      </select><br />
-      <textarea name="comentario" id="comentario" placeholder="Consulta" cols="30" rows="10"></textarea>
-      <br />
+  <div class="container">
+    <form >
+      <div>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre *" />
+      </div>
+      <div>
+        <input type="email" name="email" id="email" placeholder="Email *" />
+      </div>
+      <div>
+        <input type="text" name="celular/telefono" id="celular/telefono" placeholder="Celular/Telefono" />
+      </div>  
+      <div>
+        <select name="tipo" id="tipo">
+          <option value="celular">Celular</option>
+          <option value="fijo">Fijo</option>
+        </select>
+      </div>    
+      <div>
+        <textarea name="comentario" id="comentario" placeholder="Consulta" cols="30" rows="10"></textarea>
+      </div>
       <div>¿Desea recibir informacion sobre nuestras capacitaciones?</div>
-      <label for="si">si</label>
-      <!--entiendo que en este caso seria mejor boton de radio, pero pide poner un checkbox la consigna-->
-      <input type="checkbox" name="si" id="SiAcepto" />
-      <label for="no">no</label>
-      <input type="checkbox" name="no" id="NoAcepto" />
-      <br />
-      <input type="reset" name="reset" id="Limpiar formulario" />
-      <input type="submit" name="enviar" id="enviar" /><br />
+      <div>
+        <label for="si">si</label>
+        <input type="checkbox" name="si" id="SiAcepto" />
+        <label for="no">no</label>
+        <input type="checkbox" name="no" id="NoAcepto" />
+      </div>
+      <div>
+        <input type="reset" name="reset" id="Limpiar formulario" />
+        <input type="submit" name="enviar" id="enviar" />
+      </div>
     </form>
-  </section>
+  </div>
+
   <footer style="background-color: #666666;">
     <div class="container d-flex justify-content-between align-items-center flex-wrap">
         <ul class="list-unstyled col-12 col-md-3 d-flex mb-3">
