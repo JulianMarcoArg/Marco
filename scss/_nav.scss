@@ -1,5 +1,5 @@
 .nav-style {
-    font: montserrat, sans-serif;
+    font-family: montserrat, sans-serif !important;
     color: $main-color-3;
     text-align: center;
   }
@@ -9,4 +9,6 @@
   }
  nav{
   padding: 12;
+  font-family: $main-typography ;
+  font-weight: 600;
  }

@@ -1,5 +1,5 @@
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat";
   font-weight: 900;
   color: #666666;
 }
@@ -8,20 +8,20 @@ h2 {
   text-align: center;
   color: #a4be38;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat", sans-serif;
   padding: 1em;
 }
 
 p {
   color: #666666;
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-weight: 400;
   text-align: justify;
 }
 
 h3 {
   color: #666666;
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-weight: 600;
   text-align: center;
   padding: 1em;
@@ -75,10 +75,6 @@ html {
   background-color: #f8f3e9 !important;
 }
 
-#mision-y-filosofia p {
-  text-align: center !important;
-}
-
 .button {
   background-color: #f8f3e9;
   color: #a4be38;
@@ -103,7 +99,7 @@ footer a {
 }
 
 .nav-style {
-  font: montserrat, sans-serif;
+  font-family: montserrat, sans-serif !important;
   color: #a4be38;
   text-align: center;
 }
@@ -115,12 +111,15 @@ footer a {
 
 nav {
   padding: 12;
+  font-family: "montserrat", sans-serif;
+  font-weight: 600;
 }
 
 #galeria {
   display: flex;
-  width: 600px;
-  height: 430px;
+  width: 500px;
+  height: 330px;
+  max-width: 70%;
 }
 #galeria img {
   width: 0px;
@@ -136,8 +135,12 @@ nav {
   filter: contrast(120%);
 }
 
+#h3-left {
+  text-align: left;
+}
+
 .card {
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat", sans-serif;
   color: #666666;
   text-align: center;
   background-color: #fff;
@@ -150,6 +153,11 @@ nav {
 }
 .card p {
   text-align: center;
+}
+
+#formulario-contacto {
+  text-align: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

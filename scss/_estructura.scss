@@ -2,12 +2,20 @@ $main-color-1: #666666;
 $main-color-2: #f8f3e9;
 $main-color-3: #a4be38 ;
 $secondary-color1: #966c3c;
-$main-typography: "Montserrat", sans-serif;
+$main-typography: "montserrat", sans-serif;
 $background-color: #fff;
 
+
+//agrego para mostrar el correcto uso de map aunque no me parezca necesario en mi caso agregarlo
+$ejemploMap: (
+  font: "montserrat",
+  weight: 900,
+  cualquiernombreesvalidoaca: red,
+);
+
 h1 {
-  font-family: $main-typography;
-  font-weight: 900;
+  font-family: map-get($ejemploMap, font) ;
+  font-weight: map-get($ejemploMap, weight);
   color: $main-color-1;
 
 }
@@ -83,10 +91,3 @@ h5 {
     background-color: $main-color-2 !important;
   }
 
-#mision-y-filosofia {
-  p {
- text-align: center !important;
-}
-
-
-}
