@@ -1,3 +1,7 @@
+a {
+  cursor: pointer;
+}
+
 h1 {
   font-family: "montserrat";
   font-weight: 900;
@@ -17,6 +21,7 @@ p {
   font-family: "montserrat", sans-serif;
   font-weight: 400;
   text-align: justify;
+  padding: 1em;
 }
 
 h3 {
@@ -92,10 +97,15 @@ html {
 footer {
   bottom: 0px;
   background-color: #666666;
+  padding: 1em;
 }
 footer a {
   color: white !important;
   text-decoration: none !important;
+}
+
+.logo-footer {
+  width: 200px !important;
 }
 
 .nav-style {
