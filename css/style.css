@@ -165,9 +165,79 @@ nav {
   text-align: center;
 }
 
-#formulario-contacto {
-  text-align: center;
-  align-items: center;
+/* Estilos para el formulario de contacto */
+.container-contact {
+  padding-bottom: 3em;
+}
+.container-contact .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container-contact h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.container-contact p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.container-contact form {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.container-contact form div {
+  margin-bottom: 1rem;
+}
+.container-contact input[type=text],
+.container-contact input[type=email],
+.container-contact textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.2rem;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.2);
+}
+.container-contact select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.2rem;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.2);
+}
+.container-contact textarea {
+  height: 10rem;
+  resize: none;
+}
+.container-contact label {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+.container-contact input[type=checkbox] {
+  margin-right: 0.5rem;
+}
+.container-contact input[type=reset],
+.container-contact input[type=submit] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.container-contact input[type=reset]:hover,
+.container-contact input[type=submit]:hover {
+  background-color: #0069d9;
+}
+.container-contact input[type=reset]:focus,
+.container-contact input[type=submit]:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 3px rgba(0, 123, 255, 0.5);
 }
 
 /*# sourceMappingURL=style.css.map */
