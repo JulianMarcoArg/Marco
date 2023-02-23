@@ -2,11 +2,10 @@
 
 $main-color-1: #666666;
 $main-color-2: #f8f3e9;
-$main-color-3: #a4be38 ;
+$main-color-3: #a4be38;
 $secondary-color1: #966c3c;
 $main-typography: "montserrat", sans-serif;
 $background-color: #fff;
-
 
 //agrego para mostrar el correcto uso de map aunque no me parezca necesario en mi caso agregarlo
 $ejemploMap: (
@@ -21,17 +20,16 @@ a {
 }
 
 h1 {
-  font-family: map-get($ejemploMap, font) ;
+  font-family: map-get($ejemploMap, font);
   font-weight: map-get($ejemploMap, weight);
   color: $main-color-1;
-
 }
 h2 {
- text-align: center;  
- color: $main-color-3;
- font-weight: bold;
- font-family: $main-typography;
- padding: 1em;
+  text-align: center;
+  color: $main-color-3;
+  font-weight: bold;
+  font-family: $main-typography;
+  padding: 1em;
 }
 p {
   color: $main-color-1;
@@ -42,7 +40,7 @@ p {
 }
 h3 {
   color: $main-color-1;
-  
+
   font-family: $main-typography;
   font-weight: 600;
   text-align: center;
@@ -53,49 +51,44 @@ h5 {
   text-align: center;
 }
 
-  
-  body {
-    background-color: $background-color;
-  }
-  body,
-  html {
-    height: 100%;
-  }
+body {
+  background-color: $background-color;
+}
+body,
+html {
+  height: 100%;
+}
 
-  .bg-img {
-    height: 100vh;
-    background-image: url(../images/fondo-index.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-  }
-  
-  /* ALINEACIONES DE TEXTO*/
+.bg-img {
+  height: 100vh;
+  background-image: url(../images/fondo-index.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+/* ALINEACIONES DE TEXTO*/
 .center {
-    text-align: center;
-  }
-  
-  .toTheLeft {
-    text-align: left;
-  }
-  
-  .toTheRight {
-    text-align: right;
-  }
-  
-  .justify {
-    text-align: justify;
-  }
-  
+  text-align: center;
+}
 
-  
-  .titleOverImg {
-    color:$main-color-2 !important;
-    text-shadow: 1px 1px 2px #333 !important;
-  }
-  
- 
-  .bg-body-tertiary {
-    background-color: $main-color-2 !important;
-  }
+.toTheLeft {
+  text-align: left;
+}
 
+.toTheRight {
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.titleOverImg {
+  color: $main-color-2 !important;
+  text-shadow: 1px 1px 2px #333 !important;
+}
+
+.bg-body-tertiary {
+  background-color: $main-color-2 !important;
+}

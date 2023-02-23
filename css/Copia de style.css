@@ -1,100 +1,95 @@
 body {
-  
-  background-color: #f8f3e9 ;
+  background-color: #f8f3e9;
 }
-body, html {
+body,
+html {
   height: 100%;
 }
 .button {
-
-background-color: #f8f3e9;
-color: #a4be38;
-border-color: #d8d8d8;
-border-width: 3px;
-border-style: solid;
-border-radius: 30px;
+  background-color: #f8f3e9;
+  color: #a4be38;
+  border-color: #d8d8d8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 30px;
 }
 
 .button:hover {
-color: #f8f3e9;
-background-color: #a4be38;
+  color: #f8f3e9;
+  background-color: #a4be38;
 }
 
 .bg-img {
-height: 100vh;
-background-image: url(images/fondo2.png);
-background-repeat: no-repeat;
-background-position: top;
-background-size: cover;
+  height: 100vh;
+  background-image: url(images/fondo2.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
 
 /* ALINEACIONES DE TEXTO*/
 .center {
-text-align: center;
+  text-align: center;
 }
 
 .toTheLeft {
-text-align: left;
+  text-align: left;
 }
 
 .toTheRight {
-text-align: right;
+  text-align: right;
 }
 
 .justify {
-text-align: justify;
+  text-align: justify;
 }
 
 /*VARIABLES EN LA TIPOGRAFIA*/
 .montserratBlack {
-font-family: "Montserrat", sans-serif;
-font-weight: 900;
-color: #666666;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #666666;
 }
 
 .montserratRegular {
-font-family: "montserrat", sans-serif;
-font-weight: 400;
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .montserratSemiBold {
-font-family: "Montserrat", sans-serif;
-font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 .titleOverImg {
-color: #f8f3e9 !important;
-text-shadow: 1px 1px 2px #333 !important;
+  color: #f8f3e9 !important;
+  text-shadow: 1px 1px 2px #333 !important;
 }
 
-
-
 .nav-style {
-font: montserrat, sans-serif ;
-color: #a4be38 ;
+  font: montserrat, sans-serif;
+  color: #a4be38;
 }
 
 .footerText {
-color: white !important;
+  color: white !important;
 }
-footer a{
-color: white !important;
-text-decoration: none !important;
+footer a {
+  color: white !important;
+  text-decoration: none !important;
 }
 .nav-link {
-font: montserrat, sans-serif ;
-color: #a4be38 ;
-
+  font: montserrat, sans-serif;
+  color: #a4be38;
 }
 .bg-body-tertiary {
-background-color: #f8f3e9 !important;
+  background-color: #f8f3e9 !important;
 }
 
 p {
   color: #666666;
   font-family: "montserrat", sans-serif;
   font-weight: 400;
-
 }
 .mainTitles {
   color: #a4be38;

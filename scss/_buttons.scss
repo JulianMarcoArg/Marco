@@ -1,14 +1,14 @@
-  //usando '&' con anidacion/nesting
-  .button {
-    background-color: $main-color-2;
-    color: $main-color-3;
-    border-color: #d8d8d8;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 30px;
-    &:hover {
-      cursor: pointer;
-      color: $main-color-2;
-      background-color: $main-color-1;
-    }
+//usando '&' con anidacion/nesting
+.button {
+  background-color: $main-color-2;
+  color: $main-color-3;
+  border-color: #d8d8d8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 30px;
+  &:hover {
+    cursor: pointer;
+    color: $main-color-2;
+    background-color: $main-color-1;
   }
+}

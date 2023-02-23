@@ -1,18 +1,15 @@
 // Aplicando anidacion
 
-  footer {
-    bottom: 0px;
-    background-color: $main-color-1;
-    padding: 1em;
-    a {
-      color: white !important;
-      text-decoration: none !important;
-    }
+footer {
+  bottom: 0px;
+  background-color: $main-color-1;
+  padding: 1em;
+  a {
+    color: white !important;
+    text-decoration: none !important;
   }
+}
 
-  .logo-footer{
-    width: 200px !important;
-  }
-
-
- 
+.logo-footer {
+  width: 200px !important;
+}
