@@ -1,14 +1,15 @@
 .nav-style {
-    font-family: montserrat, sans-serif !important;
-    color: $main-color-3;
-    text-align: center;
-  }
-  .nav-link {
-    font: montserrat, sans-serif;
-    color: $main-color-3;
-  }
- nav{
+  font-family: montserrat, sans-serif !important;
+  color: $main-color-3;
+  text-align: left;
+  padding-left: 1em;
+}
+.nav-link {
+  font: montserrat, sans-serif;
+  color: $main-color-3;
+}
+nav {
   padding: 12;
-  font-family: $main-typography ;
+  font-family: $main-typography;
   font-weight: 600;
- }
+}

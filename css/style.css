@@ -111,7 +111,8 @@ footer a {
 .nav-style {
   font-family: montserrat, sans-serif !important;
   color: #a4be38;
-  text-align: center;
+  text-align: left;
+  padding-left: 1em;
 }
 
 .nav-link {
@@ -125,35 +126,12 @@ nav {
   font-weight: 600;
 }
 
-#galeria {
-  display: flex;
-  width: 500px;
-  height: 330px;
-  max-width: 70%;
-}
-#galeria img {
-  width: 0px;
-  flex-grow: 1;
-  object-fit: cover;
-  opacity: 8;
-  transition: 0.5s ease;
-}
-#galeria img:hover {
-  cursor: crosshair;
-  width: 300px;
-  opacity: 1;
-  filter: contrast(120%);
-}
-
-#h3-left {
-  text-align: left;
-}
-
 .card {
   font-family: "montserrat", sans-serif;
   color: #666666;
   text-align: center;
   background-color: #fff;
+  margin-bottom: 2em;
 }
 .card:hover {
   transform: scale(1.05);
